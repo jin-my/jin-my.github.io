@@ -1,0 +1,144 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: "NanumGothic", sans-serif;
+    
+}
+
+@font-face{
+    font-family:'NanumGothic';
+    src:url('fonts/NanumGothic.eot');
+    src:url('fonts/NanumGothic.eot?#iefix') format(‘embedded-opentype’),
+        url('fonts/NanumGothic.woff') format(‘woff’),
+        url('fonts/NanumGothic.ttf') format('truetype'),
+        url('fonts/NanumGothic.svg') format('svg');
+}
+
+
+
+a{
+    text-decoration: none;
+    color:black;
+}
+
+header{
+    width:100%;
+    padding:15px;
+    box-sizing: border-box;
+    background: rgb(117, 115, 115);
+    color:white;
+    text-align: center; 
+    top: 0;
+    
+    
+}
+nav{
+    background:green;
+    height:50px;
+    width:100%;
+    padding: 15px;
+}
+
+ul{
+    list-style:none;
+    float:left; 
+}
+li{
+    float:left; 
+    margin:0px 5px;
+}
+html, body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+.bg{
+    background-image: url("background.jpg");
+}
+
+article{
+    clear: right;
+}
+
+section{
+    width:100%;
+    padding:15px;
+}
+
+section:nth-child(1){
+    background: rgba(255, 255, 255, 0.5);
+    height:30%;
+    text-align: center;
+}
+
+section:nth-child(2){
+    background: rgba(255, 255, 255, 0.8);
+    height:30%;
+    text-align: center;
+    
+}
+
+section:nth-child(3){
+    background: rgba(0, 0, 0, 0.6);
+    height:30%;
+    text-align: left;
+    
+}
+
+footer{
+    width:100%;
+    padding:15px;
+    background: rgba(0, 0, 0, 0.75);
+    text-align: center;
+    color: white;
+}
+
+
+section input{
+    display: block; 
+    border:0px;
+    padding:20px;
+    border-radius: 3px;
+    margin-top:5px;
+}
+
+.imageblock {
+    width: 30%;
+    height: auto;
+    border:4px solid rgba(255, 255, 255, 0.8);
+    padding: 0px;
+}
+
+.title h5,
+.title h3 {
+  display: inline;
+}
+
+.panelstyle{
+    width: 30%;
+    position:relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.panel-body{
+    font-size: 1vw;
+}
+
+.imgsize{
+    width: 20%;
+    height: auto;
+    padding: 5px;
+}
+
+div{
+    margin: 0;
+    padding: 0;
+}
