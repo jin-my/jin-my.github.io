@@ -24,12 +24,15 @@ a{
 
 header{
     width:100%;
-    padding:15px;
+    /* padding:15px; */
+    padding-top: 20px;
+    /* padding-bottom: 15px; */
     box-sizing: border-box;
     background: rgb(117, 115, 115);
     color:white;
     text-align: center; 
     top: 0;
+    position: fixed;
     
     
 }
@@ -61,7 +64,7 @@ body {
   }
 
 .bg{
-    background-image: url("background.jpg");
+    background-image: url("source_img/background.jpg");
 }
 
 article{
@@ -124,7 +127,7 @@ section input{
 
 .panelstyle{
     width: 30%;
-    position:relative;
+    position: relative;
     left: 50%;
     transform: translateX(-50%);
 }
